@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="it">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Resolution comparison</title>
+    <style>@import "style.css"</style>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <form name="form" onsubmit="create()">
+      <div class="menu">
+        <div class="form">
+          <div class="text">
+            Width:
+          </div>
+          <input id="width" type="text" name="width" value="800">
+
+          <div class="text">
+            Height:
+          </div>
+          <input id="height" type="text" name="height" value="600">
+
+          <div class="text">
+            Scale:
+          </div>
+          <input id="scale" type="text" name="scale" value="5">
+
+          <div class="button">
+            <button type="button" onclick="create()" id="buttonCreate">Create</button>
+            <button type="button" onclick="clean()" id="buttonClean">Clean</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

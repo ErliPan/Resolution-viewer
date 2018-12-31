@@ -1,0 +1,26 @@
+.display {
+  opacity: 0.4;
+  text-align: right;
+  position: absolute;
+  overflow: scroll;
+}
+.text {
+  width: 40px;
+}
+.button {
+  width: 200px;
+  margin: 10px;
+}
+.menu {
+  width: 220px;
+  border-style: solid;
+  background-color: #eee;
+  border-color: #888;
+}
+.form {
+  margin: auto;
+  padding: 20px;
+}
+body {
+  background-color: #ddd;
+}
